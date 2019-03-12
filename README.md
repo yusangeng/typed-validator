@@ -18,7 +18,7 @@ npm install typed-validate --save
 
 ``` ts
 // Foobar.api.ts
-import { Email } from 'typed-validator'
+import { Email } from 'typed-validate'
 
 declare class Foobar {
   updateEmail (addr: Email) : Promise<boolean>

@@ -1,5 +1,5 @@
 {
-  "name": "typed-validator",
+  "name": "typed-validate",
   "version": "0.1.0",
   "description": "Typed data validator.",
   "main": "lib/index.js",

@@ -11,7 +11,7 @@ DON'T use this package if you don't know recore!
 ## Install
 
 ``` bash
-npm install typed-validator --save
+npm install typed-validate --save
 ```
 
 ## Usage

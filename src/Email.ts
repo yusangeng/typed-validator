@@ -9,7 +9,7 @@ import exec from './utils/exec'
 
 export type Email = string
 
-export const Email = function validateEmail (value: any) : string {
+export const Email = function validateEmail (value: any) {
   return exec(() => {
     validate(value, 'value').matchEmail()
   })

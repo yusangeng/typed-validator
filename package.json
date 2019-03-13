@@ -1,7 +1,7 @@
 {
-  "name": "typed-validate",
+  "name": "xux-types",
   "version": "0.1.1",
-  "description": "Typed data validator.",
+  "description": "XUX data validator.",
   "main": "lib/index.js",
   "jsnext:main": "src/index.ts",
   "types": "lib",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yusangeng/typed-validator.git"
+    "url": "https://github.com/yusangeng/xux-types.git"
   },
   "keywords": [
     "validate",
@@ -40,7 +40,7 @@
     "typescript": "^3.2.4"
   },
   "dependencies": {
-    "io-validate": "^2.1.8",
+    "io-validate": "^2.1.12",
     "tslib": "^1.9.3"
   },
   "nyc": {

@@ -9,8 +9,8 @@ import exec from './utils/exec'
 
 export type Double = string
 
-export const Double = function validateDouble (value: any) : string {
+export const Double = function validateDouble (value: any) {
   return exec(() => {
-    validate(value, 'value').match(/\-?\d\.\d+/)
+    validate(value, 'value').match(/^\-?\d\.\d+$/)
   })
 }

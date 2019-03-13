@@ -9,7 +9,7 @@ import exec from './utils/exec'
 
 export type Boolean = boolean
 
-export const Boolean = function validateBoolean (value: any) : string {
+export const Boolean = function validateBoolean (value: any) {
   return exec(() => {
     validate(value, 'value').isBoolean()
   })

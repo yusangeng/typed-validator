@@ -27,7 +27,11 @@ export const Employee = function validateEmployee (value: any) {
 export const EmployeeMulti = function validateEmployeeMulti (value: any) {
   return exec(() => {
     validate(value, 'value').isArrayOf((el: any) => {
-      
+      const err = Employee(el)
+
+      if (err.length) {
+        throw new Error(err)
+      }
     })
   })
 }
